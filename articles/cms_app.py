@@ -8,4 +8,4 @@ class ArticlesHook(CMSApp):
     name = _("Articles")
     urls = ["articles.urls"]
 
-apphook_pool.register(ArticlesHook)(bigee2)
+apphook_pool.register(ArticlesHook)
